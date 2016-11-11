@@ -1,0 +1,311 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+*,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #ccc;
+  list-style-type: none;
+  font-size: 13px;
+  font-weight: 400; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+::selection {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff; }
+
+*:focus {
+  outline: none; }
+
+body {
+  background-color: #fff; }
+
+body {
+  display: flex; }
+
+svg {
+  flex-grow: 1;
+  flex-direction: column;
+  align-self: center;
+  height: 500px; }
+
+.eyes {
+  -webkit-animation: eyes 3s infinite;
+  -moz-animation: eyes 3s infinite;
+  -ms-animation: eyes 3s infinite;
+  -o-animation: eyes 3s infinite;
+  animation: eyes 3s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  transform-origin: center; }
+
+@-webkit-keyframes eyes {
+  0% {
+    transform: scale(1, 1); }
+  5% {
+    transform: scale(1, 0.1); }
+  8% {
+    transform: scale(1, 1); }
+  13% {
+    transform: scale(1, 0.1); }
+  16% {
+    transform: scale(1, 1); }
+  100% {
+    transform: scale(1, 1); } }
+@-moz-keyframes eyes {
+  0% {
+    transform: scale(1, 1); }
+  5% {
+    transform: scale(1, 0.1); }
+  8% {
+    transform: scale(1, 1); }
+  13% {
+    transform: scale(1, 0.1); }
+  16% {
+    transform: scale(1, 1); }
+  100% {
+    transform: scale(1, 1); } }
+@-ms-keyframes eyes {
+  0% {
+    transform: scale(1, 1); }
+  5% {
+    transform: scale(1, 0.1); }
+  8% {
+    transform: scale(1, 1); }
+  13% {
+    transform: scale(1, 0.1); }
+  16% {
+    transform: scale(1, 1); }
+  100% {
+    transform: scale(1, 1); } }
+@-o-keyframes eyes {
+  0% {
+    transform: scale(1, 1); }
+  5% {
+    transform: scale(1, 0.1); }
+  8% {
+    transform: scale(1, 1); }
+  13% {
+    transform: scale(1, 0.1); }
+  16% {
+    transform: scale(1, 1); }
+  100% {
+    transform: scale(1, 1); } }
+@keyframes eyes {
+  0% {
+    transform: scale(1, 1); }
+  5% {
+    transform: scale(1, 0.1); }
+  8% {
+    transform: scale(1, 1); }
+  13% {
+    transform: scale(1, 0.1); }
+  16% {
+    transform: scale(1, 1); }
+  100% {
+    transform: scale(1, 1); } }
+.puddle {
+  -webkit-animation: puddle 1.5s infinite;
+  -moz-animation: puddle 1.5s infinite;
+  -ms-animation: puddle 1.5s infinite;
+  -o-animation: puddle 1.5s infinite;
+  animation: puddle 1.5s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  transform-origin: center; }
+
+@-webkit-keyframes puddle {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1); }
+  75% {
+    transform: scale(1.2, 1.1); }
+  100% {
+    transform: scale(1); } }
+@-moz-keyframes puddle {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1); }
+  75% {
+    transform: scale(1.2, 1.1); }
+  100% {
+    transform: scale(1); } }
+@-ms-keyframes puddle {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1); }
+  75% {
+    transform: scale(1.2, 1.1); }
+  100% {
+    transform: scale(1); } }
+@-o-keyframes puddle {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1); }
+  75% {
+    transform: scale(1.2, 1.1); }
+  100% {
+    transform: scale(1); } }
+@keyframes puddle {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1); }
+  75% {
+    transform: scale(1.2, 1.1); }
+  100% {
+    transform: scale(1); } }
+.melt1 {
+  -webkit-animation: melt1 3s infinite;
+  -moz-animation: melt1 3s infinite;
+  -ms-animation: melt1 3s infinite;
+  -o-animation: melt1 3s infinite;
+  animation: melt1 3s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  transform-origin: center; }
+
+@-webkit-keyframes melt1 {
+  0% {
+    height: 10px; }
+  20% {
+    height: 25px; }
+  40% {
+    height: 10px; }
+  100% {
+    height: 10px; } }
+@-moz-keyframes melt1 {
+  0% {
+    height: 10px; }
+  20% {
+    height: 25px; }
+  40% {
+    height: 10px; }
+  100% {
+    height: 10px; } }
+@-ms-keyframes melt1 {
+  0% {
+    height: 10px; }
+  20% {
+    height: 25px; }
+  40% {
+    height: 10px; }
+  100% {
+    height: 10px; } }
+@-o-keyframes melt1 {
+  0% {
+    height: 10px; }
+  20% {
+    height: 25px; }
+  40% {
+    height: 10px; }
+  100% {
+    height: 10px; } }
+@keyframes melt1 {
+  0% {
+    height: 10px; }
+  20% {
+    height: 25px; }
+  40% {
+    height: 10px; }
+  100% {
+    height: 10px; } }
+.melt1b {
+  -webkit-animation: melt1b 3s infinite;
+  -moz-animation: melt1b 3s infinite;
+  -ms-animation: melt1b 3s infinite;
+  -o-animation: melt1b 3s infinite;
+  animation: melt1b 3s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  transform-origin: center; }
+
+@-webkit-keyframes melt1b {
+  0% {
+    transform: translateY(0); }
+  30% {
+    transform: translateY(720%); }
+  100% {
+    transform: translateY(720%); } }
+@-moz-keyframes melt1b {
+  0% {
+    transform: translateY(0); }
+  30% {
+    transform: translateY(720%); }
+  100% {
+    transform: translateY(720%); } }
+@-ms-keyframes melt1b {
+  0% {
+    transform: translateY(0); }
+  30% {
+    transform: translateY(720%); }
+  100% {
+    transform: translateY(720%); } }
+@-o-keyframes melt1b {
+  0% {
+    transform: translateY(0); }
+  30% {
+    transform: translateY(720%); }
+  100% {
+    transform: translateY(720%); } }
+@keyframes melt1b {
+  0% {
+    transform: translateY(0); }
+  30% {
+    transform: translateY(720%); }
+  100% {
+    transform: translateY(720%); } }
+.melt2b {
+  -webkit-animation: melt1b 3s infinite;
+  -moz-animation: melt1b 3s infinite;
+  -ms-animation: melt1b 3s infinite;
+  -o-animation: melt1b 3s infinite;
+  animation: melt1b 3s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  transform-origin: center;
+  animation-delay: 1.5s; }
+
+/*# sourceMappingURL=style.css.map */
